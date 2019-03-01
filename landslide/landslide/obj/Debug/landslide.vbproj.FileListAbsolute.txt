@@ -1,0 +1,12 @@
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\bin\Debug\landslide.exe.config
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\bin\Debug\landslide.exe
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\bin\Debug\landslide.pdb
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\bin\Debug\landslide.xml
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.vbprojAssemblyReference.cache
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.Form1.resources
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.Resources.resources
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.vbproj.GenerateResource.cache
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.vbproj.CoreCompileInputs.cache
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.exe
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.xml
+C:\Users\ASHUTOSH\source\repos\landslide\landslide\obj\Debug\landslide.pdb
