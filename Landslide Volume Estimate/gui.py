@@ -46,7 +46,7 @@ def check_and_execute():
         messagebox.showerror("Error",msg)
     else:
         vol,err=gacode(post,pre,float(azi),float(alt))
-        msg=" Volume of Landslide= "+str(vol)+"\n Error="+str(err)+"\n Resultant images saved"
+        msg=" Volume of Landslide= "+str(vol)+" cubic meter\n Error="+str(err)+" %\n Resultant images saved \n Data added in data.csv"
         messagebox.showinfo("Result",msg)
 
 root = Tk()

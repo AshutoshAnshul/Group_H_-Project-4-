@@ -4,6 +4,7 @@ from hillshade import hillshade
 import math
 import pandas as pd
 import imageio
+import csv
 
 from openpyxl import *
 
@@ -259,6 +260,11 @@ def gacode(post,pre,az,al):
     '''
     imageio.imwrite("post-eventDTM.png",new_h)
     imageio.imwrite("estimate-result.png",best_h)
+
     error=(abs(volume_true_del-volume_estimate_del)/volume_true_del)*100
+    row=[generations,volume_estimate_del,error]
+    with open('data.csv', 'a') as csvFile:
+        writer = csv.writer(csvFile)
+        writer.writerow(row)
+    csvFile.close()
     return(volume_estimate_del,error)
-    print(volume_true_del)
