@@ -6,6 +6,7 @@ import pandas as pd
 import imageio
 import csv
 
+
 from openpyxl import *
 
 def corr2(x,y):
@@ -263,8 +264,10 @@ def gacode(post,pre,az,al):
 
     error=(abs(volume_true_del-volume_estimate_del)/volume_true_del)*100
     row=[generations,volume_estimate_del,error]
+    change=predtm-postdtm
+
     with open('data.csv', 'a') as csvFile:
         writer = csv.writer(csvFile)
         writer.writerow(row)
     csvFile.close()
-    return(volume_estimate_del,error)
+    return(volume_estimate_del,error,change)
